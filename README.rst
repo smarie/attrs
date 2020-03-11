@@ -27,7 +27,7 @@
 
 Its main goal is to help you to write **concise** and **correct** software without slowing down your code.
 
-.. -spiel-end-
+.. teaser-end
 
 For that, it gives you a class decorator and a way to declaratively define the attributes on that class:
 
@@ -85,35 +85,7 @@ Which in turn encourages you to write *small classes* that do `one thing well <h
 Never again violate the `single responsibility principle <https://en.wikipedia.org/wiki/Single_responsibility_principle>`_ just because implementing ``__init__`` et al is a painful drag.
 
 
-.. -testimonials-
-
-Testimonials
-============
-
-**Amber Hawkie Brown**, Twisted Release Manager and Computer Owl:
-
-  Writing a fully-functional class using attrs takes me less time than writing this testimonial.
-
-
-**Glyph Lefkowitz**, creator of `Twisted <https://twistedmatrix.com/>`_, `Automat <https://pypi.org/project/Automat/>`_, and other open source software, in `The One Python Library Everyone Needs <https://glyph.twistedmatrix.com/2016/08/attrs.html>`_:
-
-  I’m looking forward to is being able to program in Python-with-attrs everywhere.
-  It exerts a subtle, but positive, design influence in all the codebases I’ve see it used in.
-
-
-**Kenneth Reitz**, creator of `Requests <https://github.com/psf/requests>`_ (`on paper no less <https://twitter.com/hynek/status/866817877650751488>`_!):
-
-  attrs—classes for humans.  I like it.
-
-
-**Łukasz Langa**, creator of `Black <https://github.com/psf/black>`_, prolific Python core developer, and release manager for Python 3.8 and 3.9:
-
-  I'm increasingly digging your attr.ocity. Good job!
-
-
-.. -end-
-
-.. -project-information-
+.. -getting-help-
 
 Getting Help
 ============
@@ -123,6 +95,8 @@ Please use the ``python-attrs`` tag on `StackOverflow <https://stackoverflow.com
 Answering questions of your fellow developers is also great way to help the project!
 
 
+.. -project-information-
+
 Project Information
 ===================
 
@@ -130,7 +104,7 @@ Project Information
 its documentation lives at `Read the Docs <https://www.attrs.org/>`_,
 the code on `GitHub <https://github.com/python-attrs/attrs>`_,
 and the latest release on `PyPI <https://pypi.org/project/attrs/>`_.
-It’s rigorously tested on Python 2.7, 3.4+, and PyPy.
+It’s rigorously tested on Python 2.7, 3.5+, and PyPy.
 
 We collect information on **third-party extensions** in our `wiki <https://github.com/python-attrs/attrs/wiki/Extensions-to-attrs>`_.
 Feel free to browse and add your own!

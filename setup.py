@@ -26,7 +26,6 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 2.7",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.4",
     "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
@@ -37,9 +36,10 @@ CLASSIFIERS = [
 ]
 INSTALL_REQUIRES = []
 EXTRAS_REQUIRE = {
-    "docs": ["sphinx", "zope.interface"],
+    "docs": ["sphinx", "sphinx-rtd-theme", "zope.interface"],
     "tests": [
-        "coverage",
+        # 5.0 introduced toml; parallel was broken until 5.0.2
+        "coverage[toml]>=5.0.2",
         "hypothesis",
         "pympler",
         "pytest>=4.3.0",  # 4.3.0 dropped last use of `convert`
